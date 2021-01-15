@@ -1,0 +1,7 @@
+C:\Users\Awat\source\repos\DateOfBirthCalculatorByAwat\DateOfBirthCalculatorByAwat\bin\Debug\DateOfBirthCalculatorByAwat.exe.config
+C:\Users\Awat\source\repos\DateOfBirthCalculatorByAwat\DateOfBirthCalculatorByAwat\bin\Debug\DateOfBirthCalculatorByAwat.exe
+C:\Users\Awat\source\repos\DateOfBirthCalculatorByAwat\DateOfBirthCalculatorByAwat\bin\Debug\DateOfBirthCalculatorByAwat.pdb
+C:\Users\Awat\source\repos\DateOfBirthCalculatorByAwat\DateOfBirthCalculatorByAwat\obj\Debug\DateOfBirthCalculatorByAwat.csprojAssemblyReference.cache
+C:\Users\Awat\source\repos\DateOfBirthCalculatorByAwat\DateOfBirthCalculatorByAwat\obj\Debug\DateOfBirthCalculatorByAwat.csproj.CoreCompileInputs.cache
+C:\Users\Awat\source\repos\DateOfBirthCalculatorByAwat\DateOfBirthCalculatorByAwat\obj\Debug\DateOfBirthCalculatorByAwat.exe
+C:\Users\Awat\source\repos\DateOfBirthCalculatorByAwat\DateOfBirthCalculatorByAwat\obj\Debug\DateOfBirthCalculatorByAwat.pdb
