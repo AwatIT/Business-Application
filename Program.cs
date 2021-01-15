@@ -64,29 +64,51 @@ namespace DateOfBirthCalculatorByAwat
             return calYaerOfAge;
         }
 
-
-        static void Main(string[] args)
+        public static void header()
         {
-            string rawName = "";
-            int age = 0;
-
             Console.WriteLine("=============================================================");
             Console.WriteLine("=====\t Awat Z. Hamad\t\t\t\t\t=====");
             Console.WriteLine("=====\t First Assignment\t\t\t\t=====");
             Console.WriteLine("=====\t Date {0}\t\t\t=====", DateTime.Now.ToString());
             Console.WriteLine("=============================================================");
+        }
 
-            Console.Write("Hello I am Awat, I will calculate your age, What is your name?: ");
-            rawName = Console.ReadLine();
+        public static void footer()
+        {
+            Console.WriteLine("=============================================================");
+            Console.WriteLine("=====\t Thank you for using my app.\t\t\t=====");
+            Console.WriteLine("=============================================================");
+        }
 
-            Console.Write("Hello {0}, what is your age: ", rawName);
-            int.TryParse(Console.ReadLine(), out age);
 
-            Program obj = new Program(rawName, age, 2021);
+        static void Main(string[] args)
+        {
+            string rawName = "";
+            int age = 0;
+            string exit;
 
-            Console.WriteLine("Hello {0}, and your age is {1}, so you were born in {2}", obj.nameGetter() , obj.ageGetter().ToString(), obj.yearOfBirth(obj.ageGetter()));
+            header();
 
-            Console.ReadLine();
+            do
+            {
+                Console.Write("Hello I am Awat, I will calculate your age, What is your name?: ");
+                rawName = Console.ReadLine();
+
+                Console.Write("Hello {0}, what is your age: ", rawName);
+                int.TryParse(Console.ReadLine(), out age);
+
+                Program obj = new Program(rawName, age, 2021);
+
+                Console.WriteLine("Hello {0}, and your age is {1}, so you were born in {2}\n", obj.nameGetter(), obj.ageGetter().ToString(), obj.yearOfBirth(obj.ageGetter()));
+
+                Console.Write("For Exit the program? {no}. Do you want to try again?: ");
+                exit = Console.ReadLine();
+            } while (!exit.Equals("no"));
+
+            footer();
+
+            // for holding console window.
+            Console.Read();
 
         }
 
